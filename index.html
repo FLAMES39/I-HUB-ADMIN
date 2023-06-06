@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>I-HUB ADMIN DASHBBOARD</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./images/logo.jpg" alt="">
+                    <h2>I-HUB</h2>
+                </div>
+                <div class="close" id="close-btn"><a href=""><i class="material-icons">close</i></a>
+                </div>
+            </div>
+            <div class="side-bar">
+                <a href="#" class="active">
+                    <span class="material-icons">grid_view </span>
+                    <h3>Dashboard</h3>
+                </a>xd
+                <a href="#">
+                    <span class="material-icons">person</span>
+                    <h3>person</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">list_alt </span>
+                    <h3>Order</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">analytics </span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">email </span>
+                    <h3>Messages <span id="msg">26</span></h3>
+
+                </a>
+                <a href="#">
+                    <span class="material-icons">settings </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">add </span>
+                    <h3>Add products</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">logout </span>
+                    <h3>Log out</h3>
+                </a>
+            </div>
+        </aside>
+        <main>
+            <h2>DASHBBOARD</h2>
+            <div class="dates">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <!-- sales -->
+                <div class="sales">
+                    <span class="material-icons">analytics</span>
+                    <div class="midd-item">
+                        <h2 style="font-size: 1.5rem;">TotalSales</h2>
+                        <h3 style="position: relative; top: 2rem;right: 7rem;">$25,024</h3>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>81% </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hours">
+                        <h3 class="text-muted">Last 24 hrs</h3>
+                    </div>
+                </div>
+                <!-- income -->
+                <div class="income">
+                    <span class="material-icons">inventory</span>
+                    <div class="midd-item">
+                        <h2 style="font-size: 1.5rem;">Totalincome</h2>
+                        <h3 style="position: relative; top: 2rem;right: 9rem;">$14,024</h3>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>81% </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hours">
+                        <h3 class="text-muted">Last 24 hrs</h3>
+                    </div>
+                </div>
+                <!-- expenses -->
+                <div class="expenses">
+                    <span class="material-icons">people</span>
+                    <div class="midd-item">
+                        <h2 style="font-size: 1.2rem;">Totalexpenses</h2>
+                        <h3 style="position: relative; top: 2rem;right: 8rem;">$10,024</h3>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>81% </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hours">
+                        <h3 class="text-muted" sty>Last 24 hrs</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-orders">
+                <H3>RECENT RESEARCH </H3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Status</th>
+                            <th>Order</th>
+                            <th>Product Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Product 1</td>
+                            <td>In Stock</td>
+                            <td class="primary">Order 123</td>
+                            <td class="warning">Location A</td>
+                        </tr>
+                        <tr>
+                            <td>Product 2</td>
+                            <td>Out of Stock</td>
+                            <td>Order 456</td>
+                            <td>Location B</td>
+                        </tr>
+                        <tr>
+                            <td>Product 3</td>
+                            <td>In Stock</td>
+                            <td>Order 789</td>
+                            <td>Location C</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+                <a href="">Show all</a>
+            </div>
+        </main>
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons">menu<span> </button>
+                <div class="themes">
+                    <span class="material-icons">dark_mode</span>
+                    <span class="material-icons">light_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="infor">
+                        <p>Hey <b>CHRISTIAN</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-pic">
+                        <img src="/images/logo.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="updates">
+                <h3>RECENT UODATES</h3>
+                <div class="update">
+                    <div class="upd1">
+                        <div class="profile-pic">
+                            <img src="/images/logo.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <p> <b>Mike Tyson</b>eyyiuouoifugobcoahnionavajkougivkfgvgg</p>
+                              <small class="text-muted">Two  mins ago</small>
+                        </div>
+                    </div>
+                    <div class="upd1">
+                        <div class="profile-pic">
+                            <img src="/images/logo.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <p> <b>Mike Tyson</b>eyyiuouoifugobcoahnionavajkougivkfgvgg</p>
+                            <small class="text-muted">Two mins ago</small>
+                        </div>
+                    </div>
+                    <div class="upd1">
+                        <div class="profile-pic">
+                            <img src="/images/logo.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <p> <b>Mike Tyson</b>eyyiuouoifugobcoahnionavajkougivkfgvgg</p>
+                            <small class="text-muted">Two mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
